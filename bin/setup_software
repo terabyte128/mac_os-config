@@ -17,3 +17,7 @@ chsh -s /usr/local/bin/bash
 
 # install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# defaults for git
+git config --global user.name "Sam Wolfson"
+git config --global user.email "wolfson@cs.uw.edu"

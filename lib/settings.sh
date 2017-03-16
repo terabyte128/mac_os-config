@@ -22,6 +22,9 @@ export REPO_DOTFILES=v24.2.0
 
 # Applications
 
+export FLUX_APP_NAME="Flux.app"
+export FLUX_APP_URL="https://justgetflux.com/mac/Flux.zip"
+
 export ATOM_APP_NAME="Atom.app"
 export ATOM_APP_URL="https://atom.io/download/mac"
 

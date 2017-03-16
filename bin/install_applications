@@ -4,6 +4,12 @@
 # Installs applications.
 
 # EXECUTION
+
+install_zip_app "$FLUX_APP_URL" "$FLUX_APP_NAME"
+
+install_zip_app "$ATOM_APP_URL" "$ATOM_APP_NAME"
+
+
 # Alfred
 install_dmg_app "$ALFRED_APP_URL" "$ALFRED_VOLUME_NAME" "$ALFRED_APP_NAME"
 

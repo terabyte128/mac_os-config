@@ -158,6 +158,9 @@ export VLC_APP_URL="https://get.videolan.org/vlc/2.2.4/macosx/vlc-2.2.4.dmg"
 export BRIGHTNESS_APP_URL="https://raw.github.com/kalvin126/BrightnessMenulet/master/BrightnessMenulet/Brightness_Menulet.zip"
 export BRIGHTNESS_APP_NAME="Brightness Menulet.app"
 
+export SPOTIFY_NOTIFICATIONS_APP_URL="https://downloads.spotify-notifications.citruspi.io/0.6.0-release.zip"
+export SPOTIFY_NOTIFICATIONS_APP_NAME="Spotify Notifications.app"
+
 export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 3/Packages"
 export ADVANCED_NEW_FILE_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/AdvancedNewFile"
 export ADVANCED_NEW_FILE_EXTENSION_URL="https://github.com/skuroda/Sublime-AdvancedNewFile.git"

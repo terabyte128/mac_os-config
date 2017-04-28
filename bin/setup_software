@@ -25,4 +25,6 @@ rm FantasqueSansMono.zip
 rm -r FantasqueSansMono/
 
 mkdir ~/.vim
-cp ../lib/vim_prefs/* ~/.vim
+cp ~/mac_os-config/lib/vim_prefs/* ~/.vim
+
+apm install --packages-file ~/mac_os-config/lib/atom-packages.txt

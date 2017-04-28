@@ -42,7 +42,7 @@ brew install reattach-to-user-namespace
 
 # Vim
 brew install vim
-
+brew install macvim
 
 # nmap
 brew install nmap
@@ -52,3 +52,9 @@ brew install python3
 
 # wget
 brew install wget
+
+brew install heroku
+
+brew install youtube-dl
+
+brew cask install transmission

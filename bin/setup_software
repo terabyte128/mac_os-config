@@ -15,3 +15,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # defaults for git
 git config --global user.name "Sam Wolfson"
 git config --global user.email "wolfson@cs.uw.edu"
+
+# install fantastique sans mono
+wget https://github.com/belluzj/fantasque-sans/releases/download/v1.7.1/FantasqueSansMono.zip
+unzip FantasqueSansMono.zip
+sudo cp FantasqueSansMono/*.ttf /Library/Fonts
+
+rm FantasqueSansMono.zip
+rm -r FantasqueSansMono/
+
+mkdir ~/.vim
+cp ../lib/vim_prefs/* ~/.vim

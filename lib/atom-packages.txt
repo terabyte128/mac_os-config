@@ -1,0 +1,14 @@
+atom-beautify@0.29.17
+autoclose-html@0.23.0
+autocomplete-python@1.8.63
+busy-signal@1.4.1
+intentions@1.1.2
+jekyll@1.4.4
+kite@0.21.2
+language-sml@0.7.0
+linter@2.0.0
+linter-pylint@2.0.1
+linter-ui-default@1.2.3
+platformio-ide-terminal@2.5.0
+python-tools@0.6.9
+

@@ -18,13 +18,15 @@ git config --global user.email "wolfson@cs.uw.edu"
 
 # install fantastique sans mono
 wget https://github.com/belluzj/fantasque-sans/releases/download/v1.7.1/FantasqueSansMono.zip
-unzip FantasqueSansMono.zip
-sudo cp FantasqueSansMono/*.ttf /Library/Fonts
-
+mkdir fsm
+unzip FantasqueSansMono.zip -d fsm
+sudo cp fsm/*.ttf /Library/Fonts
 rm FantasqueSansMono.zip
-rm -r FantasqueSansMono/
+rm -r fsm/
 
-mkdir ~/.vim
-cp ~/mac_os-config/lib/vim_prefs/* ~/.vim
+# make vim cool
+git clone https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
 
+# and make atom cool
 apm install --packages-file ~/mac_os-config/lib/atom-packages.txt

@@ -155,7 +155,7 @@ export VLC_APP_NAME=VLC.app
 export VLC_VOLUME_NAME="vlc-2.2.4"
 export VLC_APP_URL="https://get.videolan.org/vlc/2.2.4/macosx/vlc-2.2.4.dmg"
 
-export BRIGHTNESS_APP_URL="https://raw.github.com/kalvin126/BrightnessMenulet/master/Resources/Brightness_Menulet.zip"
+export BRIGHTNESS_APP_URL="https://github.com/florianbeck/BrightnessMenulet/releases/download/1.5/Brightness.Menulet.app.zip"
 export BRIGHTNESS_APP_NAME="Brightness Menulet.app"
 
 export SPOTIFY_NOTIFICATIONS_APP_URL="https://downloads.spotify-notifications.citruspi.io/0.6.0-release.zip"

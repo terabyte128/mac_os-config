@@ -1,0 +1,4 @@
+James-Yu.latex-workshop
+donjayamanne.python
+ginfuru.vscode-jekyll-snippets
+neilding.language-liquid

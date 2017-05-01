@@ -30,3 +30,6 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 # and make atom cool
 apm install --packages-file ~/mac_os-config/lib/atom-packages.txt
+
+# and also vs code
+while read in; do code --install-extension $in; done < ~/mac_os-config/lib/vsc-packages.txt 
